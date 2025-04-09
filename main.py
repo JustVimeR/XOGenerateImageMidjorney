@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 import time
 
-TELEGRAM_BOT_TOKEN = '7581196430:AAH9sMJQO5yxfIrVSXxeBatmwPKHMgiu6t0'
+TELEGRAM_BOT_TOKEN = 'bot-token'
 
 # Створюємо клієнт Hugging Face Space
 client = Client("mukaist/Midjourney")
